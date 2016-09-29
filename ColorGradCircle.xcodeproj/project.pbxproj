@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CC22DB21D9D4D2B00A1A976 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC22DB11D9D4D2B00A1A976 /* main.m */; };
+		7CC22DB51D9D4D2B00A1A976 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC22DB41D9D4D2B00A1A976 /* AppDelegate.m */; };
+		7CC22DB81D9D4D2B00A1A976 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC22DB71D9D4D2B00A1A976 /* ViewController.m */; };
+		7CC22DBB1D9D4D2B00A1A976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC22DB91D9D4D2B00A1A976 /* Main.storyboard */; };
+		7CC22DBD1D9D4D2B00A1A976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC22DBC1D9D4D2B00A1A976 /* Assets.xcassets */; };
+		7CC22DC01D9D4D2B00A1A976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC22DBE1D9D4D2B00A1A976 /* LaunchScreen.storyboard */; };
+		7CC22DC91D9D4D5200A1A976 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC22DC81D9D4D5200A1A976 /* CircleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CC22DAD1D9D4D2B00A1A976 /* ColorGradCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorGradCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC22DB11D9D4D2B00A1A976 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CC22DB31D9D4D2B00A1A976 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CC22DB41D9D4D2B00A1A976 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CC22DB61D9D4D2B00A1A976 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CC22DB71D9D4D2B00A1A976 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CC22DBA1D9D4D2B00A1A976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CC22DBC1D9D4D2B00A1A976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CC22DBF1D9D4D2B00A1A976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CC22DC11D9D4D2B00A1A976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC22DC71D9D4D5200A1A976 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		7CC22DC81D9D4D5200A1A976 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CC22DAA1D9D4D2B00A1A976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CC22DA41D9D4D2B00A1A976 = {
+			isa = PBXGroup;
+			children = (
+				7CC22DAF1D9D4D2B00A1A976 /* ColorGradCircle */,
+				7CC22DAE1D9D4D2B00A1A976 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CC22DAE1D9D4D2B00A1A976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CC22DAD1D9D4D2B00A1A976 /* ColorGradCircle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CC22DAF1D9D4D2B00A1A976 /* ColorGradCircle */ = {
+			isa = PBXGroup;
+			children = (
+				7CC22DB31D9D4D2B00A1A976 /* AppDelegate.h */,
+				7CC22DB41D9D4D2B00A1A976 /* AppDelegate.m */,
+				7CC22DB61D9D4D2B00A1A976 /* ViewController.h */,
+				7CC22DB71D9D4D2B00A1A976 /* ViewController.m */,
+				7CC22DB91D9D4D2B00A1A976 /* Main.storyboard */,
+				7CC22DC71D9D4D5200A1A976 /* CircleView.h */,
+				7CC22DC81D9D4D5200A1A976 /* CircleView.m */,
+				7CC22DBC1D9D4D2B00A1A976 /* Assets.xcassets */,
+				7CC22DBE1D9D4D2B00A1A976 /* LaunchScreen.storyboard */,
+				7CC22DC11D9D4D2B00A1A976 /* Info.plist */,
+				7CC22DB01D9D4D2B00A1A976 /* Supporting Files */,
+			);
+			path = ColorGradCircle;
+			sourceTree = "<group>";
+		};
+		7CC22DB01D9D4D2B00A1A976 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CC22DB11D9D4D2B00A1A976 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CC22DAC1D9D4D2B00A1A976 /* ColorGradCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC22DC41D9D4D2B00A1A976 /* Build configuration list for PBXNativeTarget "ColorGradCircle" */;
+			buildPhases = (
+				7CC22DA91D9D4D2B00A1A976 /* Sources */,
+				7CC22DAA1D9D4D2B00A1A976 /* Frameworks */,
+				7CC22DAB1D9D4D2B00A1A976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorGradCircle;
+			productName = ColorGradCircle;
+			productReference = 7CC22DAD1D9D4D2B00A1A976 /* ColorGradCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CC22DA51D9D4D2B00A1A976 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zsq;
+				TargetAttributes = {
+					7CC22DAC1D9D4D2B00A1A976 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = DL48DH66J5;
+					};
+				};
+			};
+			buildConfigurationList = 7CC22DA81D9D4D2B00A1A976 /* Build configuration list for PBXProject "ColorGradCircle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CC22DA41D9D4D2B00A1A976;
+			productRefGroup = 7CC22DAE1D9D4D2B00A1A976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CC22DAC1D9D4D2B00A1A976 /* ColorGradCircle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CC22DAB1D9D4D2B00A1A976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC22DC01D9D4D2B00A1A976 /* LaunchScreen.storyboard in Resources */,
+				7CC22DBD1D9D4D2B00A1A976 /* Assets.xcassets in Resources */,
+				7CC22DBB1D9D4D2B00A1A976 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CC22DA91D9D4D2B00A1A976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC22DC91D9D4D5200A1A976 /* CircleView.m in Sources */,
+				7CC22DB81D9D4D2B00A1A976 /* ViewController.m in Sources */,
+				7CC22DB51D9D4D2B00A1A976 /* AppDelegate.m in Sources */,
+				7CC22DB21D9D4D2B00A1A976 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CC22DB91D9D4D2B00A1A976 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC22DBA1D9D4D2B00A1A976 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CC22DBE1D9D4D2B00A1A976 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC22DBF1D9D4D2B00A1A976 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CC22DC21D9D4D2B00A1A976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CC22DC31D9D4D2B00A1A976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CC22DC51D9D4D2B00A1A976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorGradCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsq.ColorGradCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CC22DC61D9D4D2B00A1A976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorGradCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsq.ColorGradCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CC22DA81D9D4D2B00A1A976 /* Build configuration list for PBXProject "ColorGradCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC22DC21D9D4D2B00A1A976 /* Debug */,
+				7CC22DC31D9D4D2B00A1A976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC22DC41D9D4D2B00A1A976 /* Build configuration list for PBXNativeTarget "ColorGradCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC22DC51D9D4D2B00A1A976 /* Debug */,
+				7CC22DC61D9D4D2B00A1A976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CC22DA51D9D4D2B00A1A976 /* Project object */;
+}
